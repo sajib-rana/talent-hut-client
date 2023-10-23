@@ -1,0 +1,34 @@
+
+[{    "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "image": "https://i.ibb.co/nrGhY27/undraw-Educator-re-ju47-2.png",
+      "phone": "+1234567890",
+      "about": "I am a passionate physics teacher with a deep love for understanding the fundamental principles of the universe. My goal is to make complex concepts easy to grasp, sparking curiosity and a sense of wonder about the world around us."
+    },
+    { "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "image": "https://i.ibb.co/0jsnx9F/undraw-Teacher-re-sico.png",
+      "phone": "+9876543210",
+      "about": "As a chemistry teacher, I am dedicated to exploring the fascinating world of atoms and molecules. I strive to make chemistry engaging and relevant, inspiring students to appreciate the role of chemistry in our daily lives."
+    },
+    { "id": "3",
+      "name": "Sajib Rana",
+      "email": "sajibrana444@gmail.com",
+      "image": "https://i.ibb.co/BT66rnC/undraw-Teaching-re-g7e3.png",
+      "phone": "01703160234",
+      "about": "Mathematics is my passion, and I am here to help students unlock its beauty. I believe that everyone can excel in math with the right guidance and approach. My teaching style focuses on problem-solving and critical thinking."
+    },
+    { "id": "4",
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "image": "https://i.ibb.co/qxWnNQM/undraw-Youtube-tutorial-re-69qc.png",
+      "phone": "+5555555555",
+      "about": "Biology is the study of life, and I am enthusiastic about sharing this knowledge with my students. I aim to instill an appreciation for the diversity and complexity of living organisms, encouraging a lifelong interest in the natural world."
+    }
+   ]
+
+   
+
+

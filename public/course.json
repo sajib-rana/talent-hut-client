@@ -1,0 +1,46 @@
+[
+  { "id": "1",
+    "subject_name": "Physics",
+    "instructor_name": "John Doe",
+    "subject_image_url": "https://i.ibb.co/1qr8WrM/physics.png",
+    "available_seats": 20,
+    "total_seats": 30,
+    "instructor_email": "john.doe@example.com"
+  },
+  { "id": "2",
+    "subject_name": "Chemistry",
+    "instructor_name": "John Doe",
+    "subject_image_url": "https://i.ibb.co/y6X6DZY/chemistry.png",
+    "available_seats": 15,
+    "total_seats": 25,
+    "instructor_email": "john.doe@example.com"
+  },
+  { "id": "3",
+    "subject_name": "Math",
+    "instructor_name": "John Doe",
+    "subject_image_url": "https://i.ibb.co/M5MSZMz/math.png",
+    "available_seats": 25,
+    "total_seats": 35,
+    "instructor_email": "john.doe@example.com"
+  },
+  { "id": "4",
+    "subject_name": "Biology",
+    "instructor_name": "John Doe",
+    "subject_image_url": "https://i.ibb.co/8xzGpkD/biology.png",
+    "available_seats": 18,
+    "total_seats": 28,
+    "instructor_email": "john.doe@example.com"
+  },
+  { "id": "5",
+    "subject_name": "Higher Math",
+    "instructor_name": "John Doe",
+    "subject_image_url": "https://i.ibb.co/WHwtMrF/higher-math.png",
+    "available_seats": 12,
+    "total_seats": 20,
+    "instructor_email": "john.doe@example.com"
+  }
+]
+
+
+
+

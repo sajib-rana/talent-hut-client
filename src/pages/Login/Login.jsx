@@ -1,9 +1,9 @@
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
-import {  useLocation, useNavigate } from "react-router-dom";
+import {  Link, useLocation, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import Swal from "sweetalert2";
-// import SocialLogin from "../Shared/SocialLogin/SocialLogin";
+import SocialLogin from "../Shared/SocialLogin/SocialLogin";
 
 const Login = () => {
   
@@ -91,12 +91,12 @@ const Login = () => {
                 />
               </div>
             </form>
-            {/* <p>
+            <p>
               <small>
                 New Here? <Link to="/signup">Create an account</Link>{" "}
               </small>
-            </p> */}
-            {/* <SocialLogin></SocialLogin> */}
+            </p>
+            <SocialLogin></SocialLogin>
           </div>
         </div>
       </div>
