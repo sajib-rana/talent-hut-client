@@ -4,6 +4,7 @@ import Feedback from "../Feedback/Feedback";
 import Courses from "../Courses/Courses";
 import Instructor from "../Instructor/Instructor";
 import Featured from "./Featured/Featured";
+import Reviews from "../Reviews/Reviews";
 
 
 const Home = () => {
@@ -15,8 +16,9 @@ const Home = () => {
         <Banner></Banner>
         <Courses></Courses>
         <Instructor></Instructor>
-        <Featured></Featured>
         <Feedback></Feedback>
+        <Featured></Featured>
+        <Reviews></Reviews>
       </div>
     );
 };

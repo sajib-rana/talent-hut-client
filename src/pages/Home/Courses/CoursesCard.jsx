@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const CoursesCard = ({ course }) => {
-  const { subject_image_url,instructor_name,subject_name,available_seats,total_seats,instructor_email } = course;
+  const { price,subject_image_url,instructor_name,subject_name,available_seats,total_seats,instructor_email } = course;
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure className="px-10 pt-10">
@@ -13,6 +13,7 @@ const CoursesCard = ({ course }) => {
         <p className="">Available Seat: {available_seats}</p>
         <p className="">Total Seat: {total_seats}</p>
         <p className="">Instructor Email: {instructor_email}</p>
+        <p className="">Price: ${price}</p>
         <div className="card-actions">
           <Link>
             <button className="btn btn-primary">Enrolled</button>

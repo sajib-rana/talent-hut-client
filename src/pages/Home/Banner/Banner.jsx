@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import banner from '../../../assets/images/banner.png'
 
 const Banner = () => {
@@ -18,7 +19,7 @@ const Banner = () => {
                 who works closely with students to provide guidance, motivation, and resources to enhance
                  their learning experience.
             </p>
-            <button className="btn btn-primary">See All Classes</button>
+            <Link to='/courses' className="btn btn-primary">See All Classes</Link>
           </div>
         </div>
       </div>
