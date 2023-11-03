@@ -7,14 +7,15 @@ import {
   FaUtensils,
   FaUsers,
 } from "react-icons/fa";
+import useAdmin from "../hooks/useAdmin";
 
 // import useAdmin from "../hooks/useAdmin";
 
 const Dashboard = () => {
   
 
-//   const [isAdmin] = useAdmin();
-  const isAdmin = true;
+  const [isAdmin] = useAdmin();
+  // const isAdmin = true;
   return (
     <div className="drawer lg:drawer-open ">
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />

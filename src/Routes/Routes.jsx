@@ -10,6 +10,7 @@ import Dashboard from "../Layout/Dashboard";
 import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
 import UserHome from "../pages/Dashboard/UserHome/UserHome";
 import UserAdmin from "../pages/Dashboard/UserAdmin/UserAdmin";
+import InstructorDetail from "../pages/Home/Instructor/InstructorDetail";
 
 
 export const router = createBrowserRouter([
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
       {
         path: "courses",
         element: <Courses></Courses>,
+      },
+      {
+        path: "instructorDetail",
+        element: <InstructorDetail></InstructorDetail>,
       },
     ],
   },

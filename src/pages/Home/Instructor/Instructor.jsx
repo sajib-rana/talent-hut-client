@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import SectionTittle from "../../../components/SectionTittle";
 import InstructorCard from "./InstructorCard";
+// import useInstructor from "../../../hooks/useInstructor";
 
 
 const Instructor = () => {
  const [instructors, setInstructors] = useState([]);
-
+//  const {instructors} = useInstructor();
+  console.log(instructors)
   useEffect(() => {
     fetch("http://localhost:5000/instructor")
       .then((res) => res.json())
