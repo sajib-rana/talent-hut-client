@@ -1,27 +1,27 @@
  @keyframes sliding {
      0% {
-         
+         background-color: yellow;
          left: 0;
          top: 0;
      }
 
      25% {
          top: 200px;
-        
+         background-color: brown;
      }
 
      50% {
          top: 0;
-         
+         background-color: yellow;
      }
 
      75% {
          top: 200px;
-         
+         background-color: brown;
      }
 
      100% {
-         
+         background-color: yellow;
          left: 700px;
          top: 0;
      }
@@ -30,7 +30,7 @@
  .stage {
      width: 800px;
      height: 300px;
-     background-color: rgb(90, 99, 198);
+     background-color: darkturquoise;
  }
 
  .ball {

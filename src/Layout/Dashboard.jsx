@@ -6,6 +6,9 @@ import {
   FaBook,
   FaUtensils,
   FaUsers,
+  FaChalkboardTeacher,
+  FaDiscourse,
+  
 } from "react-icons/fa";
 import useAdmin from "../hooks/useAdmin";
 
@@ -28,7 +31,7 @@ const Dashboard = () => {
           Open drawer
         </label>
       </div>
-      <div className="drawer-side bg-[#D1A054]">
+      <div className="drawer-side bg-gray-300">
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
         <ul className="menu p-4 w-80">
           {isAdmin ? (
@@ -86,10 +89,12 @@ const Dashboard = () => {
             </NavLink>{" "}
           </li>
           <li>
-            <NavLink to="/instructor"> Instructor</NavLink>
+            <NavLink to="/instructor">
+              <FaChalkboardTeacher></FaChalkboardTeacher> Instructor
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/courses">Courses</NavLink>
+            <NavLink to="/courses"><FaDiscourse></FaDiscourse> Courses</NavLink>
           </li>
         </ul>
       </div>

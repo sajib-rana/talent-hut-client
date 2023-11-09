@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 
 const InstructorCard = ({instructor}) => {
-    const { name,email,image,phone} = instructor;
+    const {_id, name,email,image,phone} = instructor;
     return (
       <div className="card w-96 glass">
         <figure>
@@ -13,7 +13,7 @@ const InstructorCard = ({instructor}) => {
           <p>Email: {email}</p>
           <p>Phone: {phone}</p>
           <div className="card-actions justify-end">
-            <Link to="/instructorDetail" className="btn btn-primary">
+            <Link to={`/instructorDetail/${_id}`} className="btn btn-primary">
               Contact me
             </Link>
           </div>
